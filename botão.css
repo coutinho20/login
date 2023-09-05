@@ -1,0 +1,145 @@
+body{
+    background: #3d3b3b;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+}
+ 
+img{
+    position: fixed;
+    width: 120px;
+    height: 120px;
+    left: 30%;
+    top: -20%;
+    transform: scale(1.15);
+}
+
+
+.border{
+    position: absolute;
+    width: 140px;
+    height: 50px;
+    background: #060606;
+border-radius: 35px;
+    top: -210px;
+    left: 69px;
+}
+
+.flex{
+    position: absolute;
+    width: 300px;
+    height: 330px;
+    background: transparent;
+    border: 4px solid #b3a9a9;
+    border-radius: 35px;
+    backdrop-filter: blur(10px);
+    top: 28%;
+    left: 7%;
+    z-index: 1;
+
+
+}
+ 
+span1{
+    color: #f2f0f4;
+    position: absolute;
+    left: 110%;
+    top: 36%;
+}
+
+
+.btn{
+    text-align: center;
+    padding: 10px 8px;
+    height: 20px;
+    width: 250px;
+    color: rgb(255, 255, 255);
+    background: #3c363d;
+    border: 1px solid #ffffff;
+    border-radius: 35px;
+    user-select: contain;
+    cursor: pointer;
+    position: absolute;
+    top:40%;
+    left: 15%;
+    z-index: 2;
+}
+
+.btn1{
+    text-align: center;
+     position: absolute;
+     padding: 10px 8px;
+     color: #fffeff;
+     background: #3c363d;
+     border: 1px solid#ecebeb;
+     border-radius: 35px;
+     user-select: contain;
+     cursor: pointer;
+     height: 20px;
+     width: 250px;
+     top: 49%;
+     left: 15%;
+     z-index: 3;
+}
+
+.btn2{
+    text-align: center;
+    position: absolute;
+    padding: 10px 8px;
+    color: #fcfbfd;
+     background: #3c363d;
+    border: 1px solid#eeecec;
+    border-radius: 35px;
+    user-select: contain;
+    cursor: pointer;
+    height: 20px;
+    width: 250px;
+    top: 58%;
+    left: 15%;
+    z-index: 3;
+}
+
+.btn:hover{
+    background: #fffcfc;
+    transition: 1s;
+    color: #000;
+    transform: scale(1.10);
+}
+
+.btn1:hover{
+    background: #ffffff;
+    transition: 1s;
+    color: #000;
+    transform: scale(1.10);
+}
+
+.btn2:hover{
+    background: #ffffff;
+    transition: 1s;
+    color: #000;
+    transform: scale(1.10);
+}
+
+ 
+p{
+    position: fixed;
+    color: #f3f3f3;
+    top: 140%;
+    left: 25%;
+}
+
+a{
+    align-items: center;
+    position: fixed;
+    color: #fffcff;
+    top: 87%;
+    left: 30%;
+}
+
+h2{
+    position: absolute;
+    color: #471f1f;
+    left: 78%;
+    top: -25%;
+
+}
